@@ -1,4 +1,4 @@
-baseURL = "https://<YOUR_GITHUB_USERNAME>.github.io/<YOUR_REPO_NAME>/"
+baseURL = "https://DevJie-code.github.io/myblog/"
 languageCode = "zh-cn"
 title = "我的技术博客"
 theme = "PaperMod"
