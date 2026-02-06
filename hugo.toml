@@ -4,6 +4,7 @@ title = "麦金塔"
 theme = "PaperMod"
 
 [params]
+  enableSearch = true
   disableSpecial1stPost = true
   defaultTheme = "light"
   showReadingTime = true
@@ -15,3 +16,20 @@ theme = "PaperMod"
     name = "文章归档"
     url = "/posts/"
     weight = 1
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 2
+  keys = ["title", "permalink", "summary", "content"]
+
+  [[menu.main]]
+    name = "搜索"
+    url = "/search/"
+    weight = 2
