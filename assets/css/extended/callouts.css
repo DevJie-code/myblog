@@ -12,15 +12,14 @@
 
 .callout-content {
   display: flex;
-  align-items: flex-start;
-  gap: 0.6rem;
+  align-items: center;
+  gap: 0.55rem;
 }
 
 .callout-icon {
   width: 1.2rem;
   height: 1.2rem;
   display: inline-flex;
-  margin-top: 0.15rem;
   flex: 0 0 auto;
 }
 
@@ -32,6 +31,14 @@
 
 .callout-body {
   color: var(--callout-text);
+}
+
+.callout-body > :first-child {
+  margin-top: 0;
+}
+
+.callout-body > :last-child {
+  margin-bottom: 0;
 }
 
 .callout-body p {
