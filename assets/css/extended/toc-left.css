@@ -9,6 +9,10 @@
     overflow: auto;
     z-index: 10;
   }
+
+  .post-single .toc summary {
+    cursor: default;
+  }
 }
 
 @media (max-width: 1199px) {
