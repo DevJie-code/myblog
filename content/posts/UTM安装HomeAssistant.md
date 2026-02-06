@@ -92,7 +92,7 @@ cd ha_xiaomi_home
 > ![]({{< absURL "images/attachments/1Capture_2026-02-03_21.44.40.png" >}})
 
 > [!INFO] 在设备与集成中选择添加 xiaomi home
-> <img src="{{< absURL \"images/attachments/1Capture_2026-02-03_21.47.54.png\" >}}" width="575" />
-> <img src="{{< absURL \"images/attachments/1Capture_2026-02-03_21.49.07.png\" >}}" width="600" />
+> <img src="/myblog/images/attachments/1Capture_2026-02-03_21.47.54.png" width="575" />
+> <img src="/myblog/images/attachments/1Capture_2026-02-03_21.49.07.png" width="600" />
 
-> [!INFO] 在设备与集成中选择添加 Apple，其中选择 HomeKit Bridge<img src="{{< absURL \"images/attachments/1Capture_2026-02-03_22.02.43.png\" >}}" width="575" /> <img src="{{< absURL \"images/attachments/1Capture_2026-02-03_22.03.17.png\" >}}" width="550" />
+> [!INFO] 在设备与集成中选择添加 Apple，其中选择 HomeKit Bridge<img src="/myblog/images/attachments/1Capture_2026-02-03_22.02.43.png" width="575" /> <img src="/myblog/images/attachments/1Capture_2026-02-03_22.03.17.png" width="550" />
