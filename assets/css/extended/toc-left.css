@@ -1,9 +1,4 @@
 @media (min-width: 1200px) {
-  .post-single {
-    position: relative;
-    padding-left: 280px;
-  }
-
   .post-single .toc {
     position: fixed;
     left: 24px;
