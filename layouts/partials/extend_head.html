@@ -1,9 +1,8 @@
 <script>
-  // Sync theme class with stored preference (do not force).
+  // If a previous dark preference was saved, clear it so defaultTheme=light takes effect.
   try {
-    const pref = localStorage.getItem('pref-theme');
-    const isDark = pref === 'dark' || (!pref && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
-    document.documentElement.classList.toggle('dark', isDark);
-    if (document.body) document.body.classList.toggle('dark', isDark);
+    if (localStorage.getItem('pref-theme') === 'dark') {
+      localStorage.removeItem('pref-theme');
+    }
   } catch (e) {}
 </script>
