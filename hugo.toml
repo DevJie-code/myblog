@@ -4,10 +4,11 @@ title = "麦金塔"
 theme = "PaperMod"
 
 [params]
+  showDate = false
   enableSearch = true
   disableSpecial1stPost = true
   defaultTheme = "light"
-  showReadingTime = true
+  showReadingTime = false
   showToc = true
   showCodeCopyButtons = true
 
