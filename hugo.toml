@@ -15,8 +15,8 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
-    name = "文章"
-    url = "/posts/"
+    name = "🔍 搜索"
+    url = "/search/"
     weight = 1
 
 [outputs]
@@ -31,7 +31,3 @@ theme = "PaperMod"
   minMatchCharLength = 2
   keys = ["title", "permalink", "summary", "content"]
 
-  [[menu.main]]
-    name = "🔍 搜索"
-    url = "/search/"
-    weight = 2
