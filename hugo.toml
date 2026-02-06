@@ -1,6 +1,6 @@
 baseURL = "https://DevJie-code.github.io/myblog/"
 languageCode = "zh-cn"
-title = "我的技术博客"
+title = "麦金塔"
 theme = "PaperMod"
 
 [params]
@@ -11,6 +11,6 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
-    name = "Posts"
+    name = "文章归档"
     url = "/posts/"
     weight = 1
