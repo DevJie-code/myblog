@@ -1,0 +1,16 @@
+baseURL = "https://<YOUR_GITHUB_USERNAME>.github.io/<YOUR_REPO_NAME>/"
+languageCode = "zh-cn"
+title = "我的技术博客"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "light"
+  showReadingTime = true
+  showToc = true
+  showCodeCopyButtons = true
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
